@@ -299,7 +299,7 @@ wget http://example.com/folder/file
 wget -c http://example.com/folder/file
 
 # start download in background:
-wget -b wget -c http://example.com/folder/file
+wget -b http://example.com/folder/file
 
 # download a file from ftp server:
 wget --ftp-user=USER --ftp-password=PASS ftp://example.com/folder/file
